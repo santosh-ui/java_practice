@@ -9,5 +9,9 @@ package company;
  * @author Santosh
  */
 public class Address {
-    
+    String houseNum;
+    String street;
+    String city;
+    String state;
+    String country;
 }
