@@ -36,6 +36,7 @@ public class ArrListOps {
         System.out.println("Before: " + numbers.toString());
         numbers.forEach(number -> {
             numbers.set(numbers.indexOf(number), number * 2);
+            System.out.println(number * 2);
     //        System.out.println(numbers.get(numbers.indexOf(number)));
     //        System.out.println(numbers.indexOf(number));
         });
