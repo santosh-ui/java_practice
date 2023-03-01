@@ -9,11 +9,19 @@ package chapter4;
  * @author Santosh
  */
 public class StaticCodeTest {
-    public static int a = 5;
-    public static int b = a * 2;
+
+    /**
+     *
+     */
+    public static final int A = 5;
+
+    /**
+     *
+     */
+    public static int b = A * 2;
     static {
         System.out.println("static block");
-        System.out.println(a);
+        System.out.println(A);
 //        System.out.println(b);
     }
     

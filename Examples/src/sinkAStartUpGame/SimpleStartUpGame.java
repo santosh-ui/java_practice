@@ -9,9 +9,9 @@ package sinkAStartUpGame;
  * @author Santosh
  */
 
-import java.util.concurrent.ThreadLocalRandom;
+//import java.util.concurrent.ThreadLocalRandom;
 import java.util.Arrays;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class SimpleStartUpGame {
     public static void main(String[] args) {
