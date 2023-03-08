@@ -41,7 +41,7 @@ public class SimpleStartUp {
             //compare the user guess to this element (cell) in the array
             if (guess == cell) { // if the cell = guess
                 int index = indexOf(guess);
-                locationCells[index] = 0;
+                locationCells[index] = -1;
                 result = "hit"; // we got hit
                 numberOfHits++; // increment number of hits
                 break; // break out of the for loop
