@@ -23,10 +23,10 @@ public class StartupBust {
         one.setName("Google");
         startups.add(one);
         Startup two = new Startup();
-        startup.setName("Apple");
+        two.setName("Apple");
         startups.add(two);
         Startup three = new Startup();
-        startup.setName("Netflix");
+        three.setName("Netflix");
         startups.add(three);
         
         // print brief instructions for user
