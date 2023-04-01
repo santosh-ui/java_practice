@@ -12,9 +12,13 @@ public class StartupBust {
     
     // variable declarations
     // Declare and initialize the variables we'll need
-//    private GameHelper helper = new GameHelper();
-    private ArrayList<Startup> startups = new ArrayList<Startup>();
+    final private GameHelper helper = new GameHelper();
+    final private ArrayList<Startup> startups;
     private int numOfGuesses;
+    
+    public StartupBust() {
+        startups = new ArrayList<>();
+    }
     
     // method declarations
     public void setUpGame() {
